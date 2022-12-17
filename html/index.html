@@ -12,16 +12,31 @@
 
     <title>clasesdefisiologia</title>
 </head>
-<body>
-<header></header>
-        <nav class="navegador"><ul>
-            <nav><ul>
-                <a href="./index.html"><li>Inicio</li></a>
-                <a href="./quienes-somos.html"><li>¿Quienes somos?</li></a>
-                <a href="./testimonios.html"><li>testimonios</li></a>
-                <a href="./cursos.html"><li>Cursos</li></a>
-                <a href="./biblioteca.html"><li>biblioteca</li></ul></nav></nav></a>
-        
+<body class="p-3 mb-2 bg-dark text-white">
+<header>
+<!-- barra de navegacion -->
+    
+<nav class="navbar" style="background-color: #f82929;">
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+    <a class="col nav-link active link-dark" aria-current="page" href="./index.html">Inicio</a>
+    </li>
+    <li class="nav-item">
+    <a class="col nav-link link-dark" href="./quienes-somos.html">¿Quienes Somos?</a>
+    </li>
+    <li class="nav-item">
+    <a class="col nav-link link-dark" href="./testimonios.html">Testimonios</a>
+    </li>
+    <li class="nav-item">
+    <a class="col nav-link link-dark" href="./cursos.html">Cursos</a>
+    </li>
+    <li class="nav-item">
+    <a class="col nav-link link-dark" href="./biblioteca.html">Biblioteca</a>
+    </li>
+</ul>
+</nav>
+<!-- Fin de la barra de navegacion -->
+
         
     <h1><img src="../Imagenes/logoclasesdefisiologia.jpeg" width="400" height="300" alt="logo clases de fisiologia" class="logo"></h1>
     </header>
@@ -31,10 +46,12 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, fugiat. Distinctio amet laudantium, voluptatibus, eligendi cum corporis adipisci, corrupti est ab nihil provident sit officiis minima. Provident eum rerum officia!
         </p>
     </article class>
-    
-<section class="boton 1">
-    <a href="./cursos.html"><button>Quiero dejar de aprender todo de memoria YA!</button></a>
-</section>
+    <div class="conteiner justify-content-center">
+    <a class="col btn btn-primary" data-bs-toggle="offcanvas" href="./cursos.html" role="button" aria-controls="offcanvasExample">
+        Quiero dejar de aprender todo de memoria YA!
+      </a>
+    </div>
+
     <article>
     <h2>Bioquimica entra en la sala</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda, deleniti tenetur libero ipsum enim veritatis quod tempore minima deserunt consectetur nihil id officia culpa vero error omnis? Facilis, est?</p></main>
@@ -63,5 +80,6 @@
 
     <input type="reset" value="Quiero volver a escribir mi consulta"/>
 </form></section></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
