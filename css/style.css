@@ -9,6 +9,21 @@ span {font-size: 200%;}
 
 .conteiner{margin:10%}
 
+article{margin:10%}
+
+.subtitulo{padding-bottom: 100px;}
+
+
+p{padding-bottom:30px; padding-top:30px;}
+
+img{;
+    object-fit: scale-down;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+
+
 .resaltarcaja:hover{
 	-webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
